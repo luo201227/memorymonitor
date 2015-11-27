@@ -4,13 +4,12 @@ import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ResourceBundle;
 
-import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
-import javax.swing.JRadioButton;
 import javax.swing.JSeparator;
 import javax.swing.SwingConstants;
 
@@ -25,10 +24,10 @@ import com.joyce.util.MonitorUtil;
  * @copyright Copyright (c) 2015
  */
 public class MemoryMonitorPanel extends JPanel {
-
 	private static final long serialVersionUID = -3960913613847272592L;
 	private JProgressBar progressBar;
 	private JLabel lblstatusinfo;
+	private ResourceBundle res;
 
 	public JProgressBar getProgressBar() {
 		return progressBar;
@@ -39,6 +38,7 @@ public class MemoryMonitorPanel extends JPanel {
 	}
 
 	public MemoryMonitorPanel() {
+		res = ResourceBundle.getBundle("com/joyce/i18n/message");
 		this.setLayout(null);
 		
 		lblstatusinfo = new JLabel("0M/0M");
@@ -56,13 +56,10 @@ public class MemoryMonitorPanel extends JPanel {
 		separator.setBounds(159, 5, 2, 20);
 		this.add(separator);
 		
-		Icon icon = new ImageIcon(getClass().getResource("/trash.png"));
-		JRadioButton btnTrash = new JRadioButton(icon);
+		ImageButton btnTrash = new ImageButton(new ImageIcon(getClass().getResource("/trash.png")));
 		btnTrash.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
 		btnTrash.setBounds(162, 5, 23, 20);
-		btnTrash.setContentAreaFilled(false);
-		btnTrash.setRolloverIcon(icon);
-		btnTrash.setSelectedIcon(icon);
+		btnTrash.setToolTipText(res.getString("global.trash"));
 		this.add(btnTrash);
 		btnTrash.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
