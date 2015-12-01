@@ -41,9 +41,9 @@ public class MonitorUtil {
 		MemoryMXBean memorymbean = ManagementFactory.getMemoryMXBean();
 		long usedMemory = memorymbean.getHeapMemoryUsage().getUsed();
 		long totalMemory = memorymbean.getHeapMemoryUsage().getMax();
-		int used = new Long(usedMemory/1024/1024).intValue();
-		int total = new Long(totalMemory/1024/1024).intValue();
-		bar.setValue(used/total);
+		double used = usedMemory/1024/1024;
+		double total = totalMemory/1024/1024;
+		bar.setValue(new Double(used/total*100).intValue());
 		label.setText(used + "M/" + total + "M");
 	}
 }
