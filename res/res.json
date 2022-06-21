@@ -1,0 +1,150 @@
+{
+  "name": "ProShowz",
+  "author": "Joyce.Luo",
+  "data": [
+    {
+      "id": 1,
+      "name": "梦华录",
+      "type": "1",
+      "cover": "https://cdn.aqdstatic.com:966/poseidon/upload/vod/2022-06/165417192244814607.jpg",
+      "res": [
+        {
+          "channel": "qq",
+          "url": "https://v.qq.com/x/cover/mzc00200p51jpn7/",
+          "episodes": [
+            {
+              "no": 1,
+              "vid": "t0042h23a9d",
+              "suffix": "html"
+            },
+            {
+              "no": 2,
+              "vid": "s004237dmoq",
+              "suffix": "html"
+            },
+            {
+              "no": 3,
+              "vid": "w0042lrzofx",
+              "suffix": "html"
+            },
+            {
+              "no": 4,
+              "vid": "n0042uyyrj8",
+              "suffix": "html"
+            },
+            {
+              "no": 5,
+              "vid": "c0042hveuha",
+              "suffix": "html"
+            },
+            {
+              "no": 6,
+              "vid": "l0042qaaw0x",
+              "suffix": "html"
+            },
+            {
+              "no": 7,
+              "vid": "q004296az63",
+              "suffix": "html"
+            },
+            {
+              "no": 8,
+              "vid": "x0042d6te3m",
+              "suffix": "html"
+            },
+            {
+              "no": 9,
+              "vid": "g0042oxlxg4",
+              "suffix": "html"
+            },
+            {
+              "no": 10,
+              "vid": "p0042grwzzr",
+              "suffix": "html"
+            },
+            {
+              "no": 11,
+              "vid": "s0043gdo81y",
+              "suffix": "html"
+            },
+            {
+              "no": 12,
+              "vid": "n0043f59pdt",
+              "suffix": "html"
+            },
+            {
+              "no": 13,
+              "vid": "j0043h9kf6x",
+              "suffix": "html"
+            },
+            {
+              "no": 14,
+              "vid": "e00435qwu7d",
+              "suffix": "html"
+            },
+            {
+              "no": 15,
+              "vid": "a0043v0hqp3",
+              "suffix": "html"
+            },
+            {
+              "no": 16,
+              "vid": "y00435ad386",
+              "suffix": "html"
+            },
+            {
+              "no": 17,
+              "vid": "v00432fku1h",
+              "suffix": "html"
+            },
+            {
+              "no": 18,
+              "vid": "v0043tq177l",
+              "suffix": "html"
+            },
+            {
+              "no": 19,
+              "vid": "u0043cryv8q",
+              "suffix": "html"
+            },
+            {
+              "no": 20,
+              "vid": "j0043nxglzx",
+              "suffix": "html"
+            },
+            {
+              "no": 21,
+              "vid": "q0043hgkoz4",
+              "suffix": "html"
+            },
+            {
+              "no": 22,
+              "vid": "k0043gxinbi",
+              "suffix": "html"
+            },
+            {
+              "no": 23,
+              "vid": "z0043zmqjyu",
+              "suffix": "html"
+            },
+            {
+              "no": 24,
+              "vid": "k0043kq7gr7",
+              "suffix": "html"
+            },
+            {
+              "no": 25,
+              "vid": "d00430h3l09",
+              "suffix": "html"
+            },
+            {
+              "no": 26,
+              "vid": "s0043wrdxrx",
+              "suffix": "html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
