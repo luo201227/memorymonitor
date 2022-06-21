@@ -145,6 +145,30 @@
           ]
         }
       ]
+    },
+    {
+      "id": 2,
+      "name": "好好说话",
+      "type": "1",
+      "cover": "https://cdn.aqdstatic.com:966/poseidon/upload/vod/2022-04/165089052483445641.jpg",
+      "res": [
+        {
+          "channel": "mgtv",
+          "url": "https://www.mgtv.com/b/441495/",
+          "episodes": [
+            {
+              "no": 1,
+              "vid": "16064929",
+              "suffix": "html"
+            },
+            {
+              "no": 2,
+              "vid": "16064965",
+              "suffix": "html"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
